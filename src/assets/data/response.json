@@ -1,0 +1,85 @@
+{
+  "status": "success",
+  "data": [
+    {
+      "team_id": 1,
+      "team_name": "Real Madrid",
+      "src":"assets/img/kisspng-real-madrid-c-f-la-liga-football-drawing-5b38e5454a1a96.2713504515304553653035.png"
+    },
+    {
+      "team_id": 2,
+      "team_name": "FC Barcelona",
+      "src":"assets/img/fc-barcelona-png-logo-5896.png"
+    },
+    {
+      "team_id": 3,
+      "team_name": "Manchester United",
+      "src":"assets/img/logo-manchester-united-png-13480.png"
+    },
+    {
+      "team_id": 4,
+      "team_name": "Bayern Munich",
+      "src":"assets/img/favpng_fc-bayern-munich-f-c-bavaria-tultitlan-logo-football-emblem.png"
+    },
+    {
+      "team_id": 5,
+      "team_name": "Liverpool",
+      "src":"assets/img/liverpool-logo-245.png"
+    },
+    {
+      "team_id": 6,
+      "team_name": "Juventus",
+      "src":"assets/img/kisspng-juventus-f-c-serie-a-uefa-champions-league-footba-juventus-logo-5b35f0f91037f2.7176126615302617530664.png"
+    },
+    {
+      "team_id": 7,
+      "team_name": "Paris Saint-Germain",
+      "src":"assets/img/psg.png"
+    },
+    {
+      "team_id": 8,
+      "team_name": "Chelsea",
+      "src":"assets/img/chelsea.png"
+    },
+    {
+      "team_id": 9,
+      "team_name": "Atletico Madrid ",
+      "src":"assets/img/am.png"
+    },
+    {
+      "team_id": 10,
+      "team_name": "Borussia Dortmund",
+      "src":"assets/img/bvb.png"
+    },
+    {
+      "team_id": 11,
+      "team_name": "AC Milan",
+      "src":"assets/img/milan.png"
+    },
+    {
+      "team_id": 12,
+      "team_name": "Arsenal",
+      "src":"assets/img/kisspng-arsenal-f-c-logo-crest-emblem-vector-graphics-women-in-football-on-twitter-ampquot-5c0fc2b811ee60.4093124415445367600735.png"
+    },
+    {
+      "team_id": 13,
+      "team_name": "Manchester City",
+      "src":"assets/img/kisspng-manchester-city-f-c-eds-and-academy-city-of-manch-5b07cb541c07e9.6864016015272374601148.png"
+    },
+    {
+      "team_id": 14,
+      "team_name": "Tottenham Hotspur",
+      "src":"assets/img/580b57fcd9996e24bc43c4ee.png"
+    },
+    {
+      "team_id": 15,
+      "team_name": "Inter Milan",
+      "src":"assets/img/pngegg.png"
+    },
+    {
+      "team_id": 16,
+      "team_name": "Ajax",
+      "src":"assets/img/kisspng-afc-ajax-de-klassieker-feyenoord-uefa-europa-leagu-ajax-5b11278524bc19.3716781615278508851505.png"
+    }
+  ]
+}

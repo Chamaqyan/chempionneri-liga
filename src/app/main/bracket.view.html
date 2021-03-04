@@ -1,0 +1,134 @@
+<div class="main">
+    <h1>Tournament Bracket</h1>
+    <div class="d-flex">
+        <div class="brascet_gropeA">
+            <ul class="groupA">
+                <li class="groupA_top" *ngFor="let team of groupA;let i =index" [ngClass]="{'m-20':i == 4}">
+                    <div [ngClass]="{'top':i%2==0,'topB':i%2!=0}"><img src={{team.src}}></div>
+                </li>
+                <!-- <li class="groupA_top">
+                    <div class="topB"></div>
+                </li>
+                <li class="groupA_top ">
+                    <div class="top"></div>
+                </li>
+                <li class="groupA_top">
+                    <div class="topB"></div>
+                </li>
+                <li class="groupA_top m-20">
+                    <div class="top"></div>
+                </li>
+                <li class="groupA_top">
+                    <div class="topB"></div>
+                </li>
+                <li class="groupA_top">
+                    <div class="top"></div>
+                </li>
+                <li class="groupA_top">
+                    <div class="topB"></div>
+                </li> -->
+            </ul>
+            <ul class="semifinals">
+                <li class="groupA_top" *ngFor="let semfinal of semifinalsA">
+                    <div class="top"> <img src={{semfinal[0].src}}></div>
+                    <div class="bottom"> <img src={{semfinal[1].src}}></div>
+                </li>
+                <li class="groupA_top" *ngIf="!semifinalsA.length">
+                    <div class="top"> </div>
+                    <div class="bottom"></div>
+                </li>
+                <li class="groupA_top" *ngIf="!semifinalsA.length">
+                    <div class="top"> </div>
+                    <div class="bottom"></div>
+                </li>
+            </ul>
+            <ul class="polufinal">
+                <li class="groupA_top" *ngIf="!polufinalA.length">
+                    <div class="top"></div>
+                    <div class="bottom"></div>
+                </li>
+                <li class="groupA_top" *ngFor="let polufinal of polufinalA">
+                    <div class="top"><img src={{polufinal[0].src}}></div>
+                    <div class="bottom"><img src={{polufinal[1].src}}></div>
+                </li>
+            </ul>
+            <ul class="final">
+                <li class="groupA_top" *ngIf="!finalA">
+                    <div class="top"></div>
+                </li>
+                <li class="groupA_top" *ngIf="finalA">
+                    <div class="top"><img src={{finalA.src}}></div>
+                </li>
+            </ul>
+        </div>
+        <div class="brascet_gropeA roteit">
+            <ul class="groupA">
+                <li class="groupA_top" *ngFor='let team of groupB;let i = index' [ngClass]="{'m-20':i == 4}">
+                    <div [ngClass]="{'top':i%2==0,'topB':i%2!=0}" class="rotateText"><img src={{team.src}}></div>
+                </li>
+                <!-- <li class="groupA_top">
+                    <div class="topB"></div>
+                </li>
+                <li class="groupA_top ">
+                    <div class="top"></div>
+                </li>
+                <li class="groupA_top">
+                    <div class="topB"></div>
+                </li>
+                <li class="groupA_top m-20">
+                    <div class="top"></div>
+                </li>
+                <li class="groupA_top">
+                    <div class="topB"></div>
+                </li>
+                <li class="groupA_top">
+                    <div class="top"></div>
+                </li>
+                <li class="groupA_top">
+                    <div class="topB"></div>
+                </li> -->
+            </ul>
+            <ul class="semifinals">
+                <li class="groupA_top" *ngFor="let semfinal of semifinalsB">
+                    <div class="top rotateText"><img src={{semfinal[0].src}}></div>
+                    <div class="bottom rotateText"><img src={{semfinal[1].src}}></div>
+                </li>
+                <li class="groupA_top" *ngIf="!semifinalsB.length">
+                    <div class="top"> </div>
+                    <div class="bottom"></div>
+                </li>
+                <li class="groupA_top" *ngIf="!semifinalsB.length">
+                    <div class="top"> </div>
+                    <div class="bottom"></div>
+                </li>
+            </ul>
+            <ul class="polufinal">
+                <li class="groupA_top" *ngIf="!polufinalB.length">
+                    <div class="top"></div>
+                    <div class="bottom"></div>
+                </li>
+                <li class="groupA_top" *ngFor="let polufinal of polufinalB">
+                    <div class="top rotateText"><img src={{polufinal[0].src}}></div>
+                    <div class="bottom rotateText"><img src={{polufinal[1].src}}></div>
+                </li>
+            </ul>
+            <ul class="final">
+                <li class="groupA_top" *ngIf="!finalB">
+                    <div class="top"></div>
+                </li>
+                <li class="groupA_top" *ngIf="finalB">
+                    <div class="top rotateText"><img src={{finalB.src}}></div>
+                </li>
+            </ul>
+
+
+        </div>
+        <div class="cup">
+            <img src="assets/img/pngjoy.com_uefa-champions-league-trophy-fifa-19-png-download_7902923.png" alt="cup">
+            
+        </div>
+    </div>
+</div>
+
+
+<button (click)="goWin()">GOGOOGOGOGO</button>
